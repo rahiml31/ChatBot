@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "star wars planet api",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getQueryData",
+                    "slots": [
+                        {
+                            "name": "Query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "give me info on planet {Query}",
+                        "information about planet {Query}",
+                        "planet {Query}",
+                        "what is planet {Query}",
+                        "search for {Query}",
+                        "find out {Query}",
+                        "what {Query}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
